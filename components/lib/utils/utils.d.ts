@@ -80,7 +80,7 @@ export declare class DomHandler {
     static isClickable(el: HTMLElement): boolean;
     static applyStyle(el: HTMLElement, style: any): void;
     static exportCSV(csv: any, filename: string): void;
-    static saveAs(file: { name: string; url: any }): boolean;
+    static saveAs(file: { name: string; src: any }): boolean;
     static createInlineStyle(nonce?: string, styleContainer?: ShadowRoot | HTMLElement): HTMLStyleElement;
     static removeInlineStyle(styleElement: HTMLStyleElement): HTMLStyleElement | null;
     static getTargetElement(target: any): HTMLElement | null;
